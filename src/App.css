@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #181a1b;
-    color: #e0e0e0;
+    background-color: #1c1c1e;
+    color: #e6e6e6;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,14 +10,14 @@ body {
     vertical-align: middle;
     line-height: 1px;
     font-size: 20px;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .icon_header {
     vertical-align: middle;
     line-height: 1px;
     font-size: 26px;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .icon,
@@ -51,12 +51,12 @@ body {
     justify-content: space-between;
     padding: 0 30px 0 30px;
     box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
-    background-color: #252525;
+    background-color: #2b2b2e;
 }
 
 .menu-icon {
     display: none;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 /* End Header  */
@@ -65,7 +65,7 @@ body {
 #sidebar {
     grid-area: sidebar;
     height: 100%;
-    background-color: #181a1b;
+    background-color: #1c1c1e;
     overflow-y: auto;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -81,14 +81,14 @@ body {
 
 .sidebar-title > span {
     display: none;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .sidebar-brand {
     margin-top: 15px;
     font-size: 20px;
     font-weight: 700;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .sidebar-list {
@@ -109,7 +109,7 @@ body {
 
 .sidebar-list-item > a {
     text-decoration: none;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .sidebar-responsive {
@@ -131,7 +131,7 @@ body {
 .main-title {
     display: flex;
     justify-content: space-between;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .main-cards {
@@ -147,14 +147,30 @@ body {
     justify-content: space-around;
     padding: 8px 15px;
     border-radius: 5px;
-    background-color: #252525;
+    background-color: #2b2b2e;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .card:hover {
-    background-color: #303030;
+    background-color: #383838;
     transform: translateY(-3px);
+}
+
+.card:first-child {
+    border-left: 5px solid #5f9ea0;
+}
+
+.card:nth-child(2) {
+    border-left: 5px solid #ff9800;
+}
+
+.card:nth-child(3) {
+    border-left: 5px solid #4caf50;
+}
+
+.card:nth-child(4) {
+    border-left: 5px solid #e53935;
 }
 
 .card-inner {
@@ -165,7 +181,7 @@ body {
 
 .card-inner > .card_icon {
     font-size: 25px;
-    color: #e0e0e0;
+    color: #e6e6e6;
 }
 
 .charts {
